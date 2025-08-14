@@ -3,7 +3,7 @@ try:
     os.chdir(repo_path)
     
     # Create or overwrite a file with a timestamp
-    with open(file_name, "w") as file:
+    with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
     # Add the file to the staging area
