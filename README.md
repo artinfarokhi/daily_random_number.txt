@@ -2,7 +2,7 @@ try:
     # Change the current working directory to the repository path
     os.chdir(repo_path)
     
-    # Create or overwrite a file with a timestamp
+    # Create or overwrite a file with a timestam
     with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
