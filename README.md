@@ -6,7 +6,7 @@ try:
     with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
-    # Add the file to the stagin 
+    # Add the file to the stagi
     os.system(f"git add {file_name}")
     
     # Create a new commit
