@@ -16,7 +16,7 @@ try:
     # Push the commit to nft 
     os.system(f"git push origin {branch_name}")
     
-    prit("✅ Successfully created and pushed the initial activity file!")
+    print("✅ Successfully created and pushed the initial activity file!")
 
 except FileNotFoundError:
     print(f"❌ Error: The repository path was not found: {repo_path}")
