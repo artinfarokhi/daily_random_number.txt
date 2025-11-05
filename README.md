@@ -17,7 +17,7 @@ try:
     os.system(f"git push origin {branch_name}")
     
     print("✅ Successfully created and pushed the initial activity file!")
-85
+
 except FileNotFoundError:
     print(f"❌ Error: The repository path was not found: {repo_path}")
 except Exception as e:
