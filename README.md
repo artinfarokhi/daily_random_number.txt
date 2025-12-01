@@ -1,6 +1,6 @@
 try:
     # Change the current working directory to the repository path
-    os.chdir(repo_path)
+    os.chdir(repo_path)artin
     
     # Create or overwrite a file with a time
     with open(file_name, "w") as fil:
