@@ -9,7 +9,7 @@ try:
     # Add the file to the sts ti
     os.system(f"git add {file_name}")
     
-    # Create a new comm
+    # Create a new com
     commit_message = f"Initial activity commit for {datetime.date.today()}"
     os.system(f'git commit -m "{commit_message}"')
     
