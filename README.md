@@ -1,5 +1,5 @@
 try:
-    # Change the current working directory to the repository path
+    # Change the current working directory to the repository pat
     os.chdir(repo_path)
     
     # Create or overwrite a file with a time 
