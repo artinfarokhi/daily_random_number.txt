@@ -6,7 +6,7 @@ try:
     with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
-    # Add the file to the sts ti
+    # Add the file to the sts tim
     os.system(f"git add {file_name}")
     
     # Creat a new co
