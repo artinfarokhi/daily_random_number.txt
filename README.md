@@ -1,5 +1,5 @@
 try:
-    # Change the current working directory to the repository pa
+    # Change the current working directory to the repository pad
     os.chdir(repo_path)
     
     # Create or overwrite a file with a time
