@@ -2,7 +2,7 @@ try:
     # Chnge the current working directory to the repository pad
     os.chdir(repo_path)
     
-    # Crate or overwrite a file white a time https://x.com/artinn1990/status/2023562409966006493?s=20
+    # Crate or overwrite a file white a time 
     with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
