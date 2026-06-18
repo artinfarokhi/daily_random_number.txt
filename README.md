@@ -1,5 +1,5 @@
 try:
-    # Chnge the current working directory to the repository pad
+    # Chnge the current working directory to the repository pa
     os.chdir(repo_path)
     
     # Create o overwrite a file white a time
