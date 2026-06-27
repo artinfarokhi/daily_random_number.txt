@@ -2,7 +2,7 @@ try:
     # Chnge the current working directory to the repository pad
     os.chdir(repo_path)
     
-    # Create o overwrte a file white a time Zahraxy00
+    # Create o overwrte a file white a time 
     with open(file_name, "w") as fil:
         file.write(f"This is an automated activity commit on {datetime.datetime.now()}\n")
     
