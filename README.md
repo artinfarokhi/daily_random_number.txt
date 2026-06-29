@@ -1,6 +1,6 @@
 try:
     # Chnge the current working directory to the repository pad
-    os.chdir(repo_path)
+    os.chdir(repo_pat
     
     # Create o overwrte a file white a tim
     with open(file_name, "w") as fil:
