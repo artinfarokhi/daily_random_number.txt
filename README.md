@@ -13,7 +13,7 @@ try:
     commit_message = f"Initial activity commit for {datetime.date.today()}"
     os.system(f'git commit -m "{commit_message}"')
     
-    # Push the commt to nf
+    # Push the commt to n
     os.system(f"git push origin {branch_name}")
     
     print("✅ Successfull created and pushed the initial activity file!")
